@@ -1,6 +1,5 @@
----
 ## Construction d'un Intervalle de Confiance pour les Dépenses Annuelles au Restaurant
-Pour construire un intervalle de confiance pour la moyenne des dépenses annuelles au restaurant, nous allons suivre plusieurs étapes clés:
+Pour construire un intervalle de confiance pour la moyenne des dépenses annuelles au restaurant, nous allons suivre plusieurs étapes clés. Voici les étapes :
 ### Étapes pour Construire l'Intervalle de Confiance
 #### 1. Collecte des données :
 - **Taille de l'échantillon** (\( n \)) = 1 402 ménages  
@@ -62,7 +61,3 @@ L'intervalle de confiance à 90 % pour le montant annuel moyen des dépenses au 
 
 ### Interprétation
 Cela signifie que nous sommes 90 % confiants que la moyenne des dépenses des ménages pour l'ensemble de la population se situe entre 1 838,52 $ et 1 887,48 $ par an au restaurant.
-
---- 
-
-Cette version est compacte et conserve toutes les informations nécessaires ainsi que vos images. Si vous avez besoin d'autres ajustements, faites-le moi savoir !
