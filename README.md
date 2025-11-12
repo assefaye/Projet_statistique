@@ -1,10 +1,6 @@
-Voici la structure demandée, sans espaces supplémentaires, tout en intégrant vos images :
-
 ---
-
 ## Construction d'un Intervalle de Confiance pour les Dépenses Annuelles au Restaurant
-Pour construire un intervalle de confiance pour la moyenne des dépenses annuelles au restaurant, nous allons suivre plusieurs étapes clés. Voici les étapes détaillées avec des explications :
-
+Pour construire un intervalle de confiance pour la moyenne des dépenses annuelles au restaurant, nous allons suivre plusieurs étapes clés:
 ### Étapes pour Construire l'Intervalle de Confiance
 #### 1. Collecte des données :
 - **Taille de l'échantillon** (\( n \)) = 1 402 ménages  
