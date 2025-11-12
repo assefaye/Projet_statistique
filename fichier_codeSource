@@ -1,0 +1,22 @@
+# Données
+n <- 1402               # Taille de l'échantillon
+mean_expenses <- 1863  # Moyenne des dépenses
+sd_expenses <- 558     # Écart type corrigé
+confidence_level <- 0.90 # Niveau de confiance
+
+# Calcul de l'erreur standard de la moyenne (ESM)
+esm <- sd_expenses / sqrt(n)
+
+# Trouver la valeur critique z pour le niveau de confiance choisi
+z_value <- qnorm(1 - (1 - confidence_level) / 2)
+
+# Calcul de la marge d'erreur (ME)
+me <- z_value * esm
+
+# Limites de l'intervalle de confiance
+lower_limit <- mean_expenses - me
+upper_limit <- mean_expenses + me
+
+# Résultat final
+ci <- c(lower_limit, upper_limit)
+ci
